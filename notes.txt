@@ -1,0 +1,48 @@
+git commands
+------------
+git add .
+git commit -m "added notes"
+git push
+
+package management
+------------------
+package.json - bit.ly/jsdevpackagejson
+node security platform
+npm install -g nsp
+nsp check
+
+local tunnel
+------------
+npm install localtunnel -g
+lt --port 5000 --subdomain james
+
+automation
+----------
+npm scripts from the scripts section of package.json
+
+babel
+-----
+config file .babelrc
+adds EC7 support
+
+bundles
+-------
+webpack
+
+linting
+-------
+eslint
+look at plugins for specific tech
+eslint-watch
+babel-eslint if you want to use experimental js features
+bit.ly/jsdeveslint
+rules section to override default
+0 Off
+1 Warning
+2 Error
+esw is the command for eslint-watch (doesn't actually watch need npm run lint -- --watch)
+/* eslint-disable no-console */ will turn off console warning for that file
+// eslint-disable no-console applies to line only
+
+travis - CI
+need to link repo at travis-ci.org
